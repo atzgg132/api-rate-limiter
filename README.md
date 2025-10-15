@@ -46,7 +46,30 @@ api-rate-limiter/
 
 ## Quick Start
 
-### 1. Start Database Services
+### 🚀 Automated Setup (Recommended)
+
+Run the setup script to automatically install dependencies and configure everything:
+
+```bash
+./setup.sh
+```
+
+The script will:
+- ✅ Check prerequisites (Node.js, Docker)
+- ✅ Install all dependencies
+- ✅ Set up environment variables
+- ✅ Start Docker services (PostgreSQL & Redis)
+- ✅ Provide step-by-step instructions
+
+**That's it!** The script will guide you through starting the services.
+
+---
+
+### Manual Setup (Alternative)
+
+If you prefer to set up manually:
+
+#### 1. Start Database Services
 
 Start PostgreSQL and Redis using Docker Compose:
 

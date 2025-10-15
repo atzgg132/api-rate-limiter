@@ -13,6 +13,10 @@ build/
 *.log
 *.tgz
 
+# Logs
+logs/*.log
+!logs/.gitkeep
+
 # OS files
 .DS_Store
 .DS_Store?
